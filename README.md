@@ -12,3 +12,14 @@ docker create -p27017:27017 --name monguito -e MONGO_INITDB_USERNAME=nico -e MON
 
 # review info here
 https://hub.docker.com/_/mongo
+
+crear un contenedor dentro de una envoriment de red
+
+```
+docker create -p27017:27017 --name monguito --network mired -e MONGO_INITDB_ROOT_USERNAME=nico -e MONGO_INITDB_ROOT_PASSWORD=password mongo
+```
+
+create an image
+```
+docker create -p3000:3000 --name chanchito --network mired miapp:1
+```
