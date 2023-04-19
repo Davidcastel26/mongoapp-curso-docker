@@ -23,3 +23,13 @@ create an image
 ```
 docker create -p3000:3000 --name chanchito --network mired miapp:1
 ```
+
+Please review the file docker-compose.ylm
+There we build the compose in order to work with everything
+
+
+```
+Control + C
+```
+
+stop the services
