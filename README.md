@@ -36,3 +36,6 @@ stop the services
 
 # docker compose down
 this commant will remove the containers ralested with the docker compose
+
+
+docker compose -f [file name] up
